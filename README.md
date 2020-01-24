@@ -12,9 +12,5 @@ With this application, the user is able to :
 7) modify activities
 8) send activity report as an email attachment to the specified email.
 
-![GitHub Logo](/images/login.png)
-![GitHub Logo](/images/homescreen.png)
-![GitHub Logo](/images/addactivity.png)
-![GitHub Logo](/images/summary.png)
-![GitHub Logo](/images/viewactivity_2.png)
-![GitHub Logo](/images/filteractivity.png)
+![GitHub Logo](/images/full.png)
+
