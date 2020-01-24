@@ -1,0 +1,55 @@
+Edit text - android: hint ="name"
+
+http://www.singhajit.com/gradient-color-in-android/
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape>
+
+            <gradient
+
+                android:startColor="@color/application_background"
+
+                android:endColor="@color/bright_red"
+
+                android:angle="45"/>
+
+        </shape>
+
+    </item>
+
+</selector>
+
+<gradient
+
+    android:startColor="#ff2d9a59"
+
+    android:centerColor="#ff42959a"
+
+    android:endColor="#ff23729a"
+
+    android:angle="135"/>
+
+android:background="@drawable/gradient_color"> realtive layout.
+
+ Transparent text 
+android : alpha 
+
+
+Transparent button
+https://www.viralandroid.com/2016/02/making-transparent-background-in-android-button.html?m=1
+
+Transparent button with rounded corners
+
+https://www.google.de/amp/www.gadgetsaint.com/tips/rounded-corners-views-layouts-android/amp/
+
+
+
+
+

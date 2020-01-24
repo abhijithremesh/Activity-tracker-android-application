@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/venice"
+    android:layout_height="match_parent"
+    tools:context=".OverviewDate">
+
+
+    <TextView
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="37dp"
+        android:alpha="0.8"
+        android:text="Custom Overview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <ImageView
+
+        android:id="@+id/imageview_app_logo_default"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/venice"
+        android:padding="10dp"
+        android:src="@drawable/atomlogo2" />
+
+    <EditText
+        android:id="@+id/edit_from_date"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_theme"
+        android:inputType="textPersonName"
+        android:text="From Date"
+        android:textAlignment="center"
+        android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/edit_to_date"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit_from_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-179dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_theme"
+        android:inputType="textPersonName"
+        android:text="To Date"
+        android:textAlignment="center"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/button_piechart"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/custombutton2"
+        android:text="Pie chart"
+        android:textColor="#ffff" />
+
+
+</RelativeLayout>

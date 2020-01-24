@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="Filter"
+        android:icon="@drawable/ic_search_white_24dp"
+
+
+        />
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_overview"
+        android:title="Overview"
+        android:icon="@drawable/ic_import_export_black_24dp"
+        />
+
+</menu>

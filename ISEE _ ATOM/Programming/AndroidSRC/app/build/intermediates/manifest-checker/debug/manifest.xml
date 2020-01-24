@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manish.activitytracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_venom_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_venom_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.manish.activitytracker.Home" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.example.manish.activitytracker.ViewListContents"
+            android:label="Share Log" />
+        <activity android:name="com.example.manish.activitytracker.ViewListContents1" />
+        <activity
+            android:name="com.example.manish.activitytracker.RecycleViewContents"
+            android:label="List of Activities" />
+        <activity android:name="com.example.manish.activitytracker.Category" />
+        <activity
+            android:name="com.example.manish.activitytracker.SendEmail2"
+            android:label="Compose Mail" />
+        <activity android:name="com.example.manish.activitytracker.Recycle" />
+        <activity
+            android:name="com.example.manish.activitytracker.FilterView"
+            android:label="@string/ActivityLogs" />
+        <activity
+            android:name="com.example.manish.activitytracker.MainActivity"
+            android:label="Add Activity" />
+        <activity android:name="com.example.manish.activitytracker.AboutUs" />
+        <activity android:name="com.example.manish.activitytracker.CreatePIN" />
+        <activity android:name="com.example.manish.activitytracker.filterbydate" />
+        <activity android:name="com.example.manish.activitytracker.Login" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.example.manish.activitytracker.Overview"
+            android:label="Overview" />
+        <activity android:name="com.example.manish.activitytracker.Profile" />
+        <activity android:name="com.example.manish.activitytracker.Homescreen" />
+        <activity android:name="com.example.manish.activitytracker.DefaultScreen" />
+        <activity android:name="com.example.manish.activitytracker.setsecurityqn" />
+        <activity android:name="com.example.manish.activitytracker.OverviewCustom" />
+        <activity android:name="com.example.manish.activitytracker.OverviewCustomDate" />
+        <activity
+            android:name="com.example.manish.activitytracker.OverviewMain"
+            android:label="Overview" />
+        <activity android:name="com.example.manish.activitytracker.usercheck" />
+        <activity
+            android:name="com.example.manish.activitytracker.RegisterActivity"
+            android:label="Sign up" />
+        <activity
+            android:name="com.example.manish.activitytracker.LoginActivity"
+            android:label="Symbiote" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.example.manish.activitytracker.OverviewDate"
+            android:label="Daily Overview" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.manish.activitytracker.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

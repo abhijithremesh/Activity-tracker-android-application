@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradient1"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    >
+
+    <TextView
+        android:id="@+id/activity_filter"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Security Questions"
+        android:alpha="0.7"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/atomlogo2"
+            android:background="@drawable/backgroundgradient1"
+            android:alpha="0.8"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_filter"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:alpha="0.7"
+            android:text="Your Favourite SuperHero:"
+            android:textColor="#FFFF"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+
+        <EditText
+
+            android:id="@+id/input_first_answer"
+            android:layout_width="232dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:alpha="0.5"
+            android:textColorHint="#FFFF"
+            android:gravity="center"
+            android:background="@drawable/edittext_theme"
+            android:textColor="#FFFF"
+            android:layout_height="30dp"
+            android:hint="Answer"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_filter"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/end_date"
+            android:layout_weight="1"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="Your Birth Place"
+            android:alpha="0.7"
+            android:textColor="#FFFF"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <EditText
+
+            android:id="@+id/input_second_answer"
+            android:layout_width="232dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:alpha="0.5"
+            android:textColorHint="#FFFF"
+            android:gravity="center"
+            android:background="@drawable/edittext_theme"
+            android:textColor="#FFFF"
+            android:layout_marginTop="20dp"
+            android:hint="Answer"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/Validate_button"
+            android:layout_width="172dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:alpha="0.7"
+            android:background="@drawable/custombutton1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#FFFF"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="VALIDATE"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

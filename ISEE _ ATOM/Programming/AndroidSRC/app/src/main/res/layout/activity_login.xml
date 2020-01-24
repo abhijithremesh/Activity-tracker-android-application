@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:background="@drawable/animation_list"
+    tools:context=".LoginActivity">
+
+    <ImageView
+
+        android:id="@+id/imageview_app_logo1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/animation_list"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:src="@drawable/atomlogo2" />
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:singleLine="true"-->
+    <!--android:id="@+id/etEmail"-->
+    <!--android:hint="Email"-->
+    <!--android:textColorHint="@color/white"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_marginLeft="10dp"/>-->
+
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="Enter the PIN"
+        android:background="@drawable/edittext_theme"
+        android:textColorHint="@color/white"
+        android:textColor="#FFFF"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Attempts_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.7"
+            android:text="Attempts remaining:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFF" />
+
+        <TextView
+
+            android:id="@+id/count"
+            android:layout_width="48dp"
+            android:textColor="#FFFF"
+            android:layout_height="23dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Attempts_remaining"
+            android:layout_marginEnd="146dp"
+            />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="#FFFF"
+        android:background="@drawable/custombutton2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="login"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custombutton2"
+        android:textColor="#FFFF"
+        android:text="Register"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="register"/>
+
+
+</LinearLayout>

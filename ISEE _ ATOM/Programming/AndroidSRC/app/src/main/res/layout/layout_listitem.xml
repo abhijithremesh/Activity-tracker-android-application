@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/venice"
+    android:id="@+id/parent_layout">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="95dp"
+        android:text="TextView"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="59dp"
+        android:textColor="#ffff"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="14dp"
+        android:textColor="#ffff"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView3"
+        android:textColor="#ffff"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="-29dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/textView8"
+        android:text="TextView"
+        android:fontFamily="sans-serif" />
+</RelativeLayout>
+
+
+<!--manish background:-->
+    <!--android:background="@drawable/border_background"-->

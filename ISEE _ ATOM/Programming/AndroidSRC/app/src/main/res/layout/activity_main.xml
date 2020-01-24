@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/love"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editText20"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:alpha="0.5"
+        android:background="@drawable/edittext_theme"
+        android:gravity="center"
+        android:hint="Category Selected"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textColorHint="#FFFF"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_margin="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/button222"
+                    android:layout_width="37dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_control_point" />
+
+
+            </LinearLayout>
+
+
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                android:inputType="textCapCharacters"
+                android:layout_height="64dp"
+                android:layout_marginTop="30dp"
+                android:alpha="0.5"
+                android:background="@drawable/edittext_theme"
+                android:gravity="center"
+                android:hint="Enter Activity"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="#E1DBF8"
+                android:textColorHint="#FFFF"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                />
+
+
+            <!-- Second Row-->
+
+
+
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:alpha="0.5"
+                android:background="@drawable/edittext_theme"
+                android:gravity="center"
+                android:hint="Enter Description"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColorHint="#FFFF"
+                android:textSize="18sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:alpha="0.5"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/edittext_theme"
+                    android:gravity="center"
+                    android:hint="Date"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffff"
+                    android:textColorHint="#FFFF"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:alpha="0.5"
+                    android:background="@drawable/edittext_theme"
+                    android:gravity="center"
+                    android:hint="Time (hh:mm)"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffff"
+                    android:textColorHint="#FFFF"
+                    android:textSize="14sp" />
+
+
+
+
+
+
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:alpha="0.5"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/edittext_theme"
+                    android:gravity="center"
+                    android:hint="Duration(hours)"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffff"
+                    android:textColorHint="#FFFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.6"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Want to repeat?"
+                android:textColor="#FFFF"
+                android:textSize="18sp" />
+
+
+            <LinearLayout
+                android:id="@+id/twelfth"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/radio_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:layout_weight="1"
+                        android:alpha="0.6"
+                        android:buttonTint=" #ffff"
+                        android:onClick="checkbutton"
+                        android:text="D"
+                        android:textColor="#ffff"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radio_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:layout_weight="1"
+                        android:alpha="0.6"
+                        android:buttonTint=" #ffff"
+                        android:onClick="checkbutton"
+                        android:text="W"
+                        android:textColor="#ffff"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radio_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:layout_weight="1"
+                        android:alpha="0.6"
+                        android:buttonTint=" #ffff"
+                        android:onClick="checkbutton"
+                        android:text="M"
+                        android:textColor="#ffff"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radio_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:layout_weight="1"
+                        android:alpha="0.6"
+                        android:buttonTint=" #ffff"
+                        android:checked="true"
+                        android:onClick="checkbutton"
+                        android:text="Do not Repeat"
+                        android:textColor="#ffff" />
+
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+                android:alpha="0.5"
+                android:background="@drawable/edittext_theme"
+                android:gravity="center"
+                android:hint="Repeat End Date"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="#E1DBF8"
+                android:textColorHint="#FFFF"
+                android:textSize="18sp" />
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:alpha="0.6"
+                android:background="@drawable/custombutton2"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:hint="SAVE"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="18sp"
+
+                />
+
+
+            <Button
+                android:id="@+id/btnView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="75dp"
+                android:alpha="0.5"
+                android:background="@drawable/custombutton2"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:hint="VIEW"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/btnnvg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white"
+        app:menu="@menu/nav_items"
+
+        />
+
+</RelativeLayout>

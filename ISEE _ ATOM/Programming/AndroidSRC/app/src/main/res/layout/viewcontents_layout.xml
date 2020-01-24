@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:id="@+id/container_share"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/animation_list"
+    >
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:text="Share Log"-->
+        <!--android:textColor="#FFFF"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="25sp"-->
+        <!--/>-->
+
+    <Button
+        android:id="@+id/btnExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton2"
+        android:padding="15dp"
+        android:text="Download "
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/txtfilename"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:alpha="0.5"
+        android:textColor="#ffff"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnOpenPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        android:padding="15dp"
+        android:text="View PDF"
+        android:textColor="#ffff" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#19800d"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="Email PDF"
+        android:textColor="#ffff" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:alpha="0"
+        android:background="@drawable/backgroundgradient1" />
+
+
+</LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:menu="@menu/nav_items"
+        android:id="@+id/btnnvg"
+        android:background="@color/white"
+
+        ></android.support.design.widget.BottomNavigationView>
+</RelativeLayout>

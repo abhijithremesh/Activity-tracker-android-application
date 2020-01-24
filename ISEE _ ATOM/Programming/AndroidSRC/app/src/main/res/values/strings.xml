@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Symbiote</string>
+    <string name="my_text"><u>CATEGORY</u>.</string>
+
+    <string name="ap_name">Symbiote</string>
+    <string name="profile">Profile</string>
+    <string name="EnterPIN">Enter PIN :</string>
+    <string name="ConfirmPIN">Confirm PIN :</string>
+    <string name="Submit">Submit</string>
+    <string name="activity"> Activity Name</string>
+    <string name="add_activity"> Add New Activity</string>
+    <string name="Name"> Name :</string>
+    <string name="specify_category"> Category</string>
+    <string name="category"> Category :</string>
+    <string name="add_category"> Add New Category</string>
+    <string name="enter_activity"> Enter Activity</string>
+    <string name="colour"> Colour :</string>
+    <string name="Description"> Description</string>
+    <string name="Date"> Date:</string>
+    <string name="Repeat"> Repeat</string>
+    <string name="EndDate"> End Date</string>
+    <string name="Daily"> Daily</string>
+    <string name="Weekly">Weekly</string>
+    <string name="Monthly">Monthly</string>
+    <string name="Time"> Time:</string>
+    <string name="FromDate"> From Date :</string>
+    <string name="ToDate"> To Date :</string>
+    <string name="Hours"> Hours:</string>
+    <string name="FilterActivity"> Filter by Activity :</string>
+    <string name="FilterCategory"> Filter by Category :</string>
+    <string name="ActivityLogs"> Activity Logs</string>
+    <string name="Enter_PIN"> Enter the PIN </string>
+    <string name="Quote">  Time is Now </string>
+    <string name="Attempt">  Attempts remaining: </string>
+    <string name="Email">  Email</string>
+    <string name="gender">  Gender</string>
+    <string name="enable_pin">  Enable PIN</string>
+    <string name="disable_pin">  Disable PIN</string>
+    <string name="modify_activity">  Modify Activity</string>
+    <string name="display_activity"> Activity </string>
+    <string name="display_category"> Category </string>
+    <string name="display_time"> Time </string>
+    <string name="display_hours"> Hours </string>
+    <string name="AboutUs">Our Team “ATOM”s main objective is to make a Android Application which supports the functionality of Activity tracker. We plan to develop a activity trackers which registers all the activities done by the user .This would make life so simple for the users.</string>
+    <string name="team"> Our Team\n\n♦ Abhijith\n\n♦ Anusha\n\n♦ Manish \n\n♦ Vishnu </string>
+    <string name="blog">Visit us on\n\n https://dbse-teaching.github.io/isee2018-ATOM</string>
+    <string name="overview"> Overview </string>
+    <string name="bulleted_list">
+    <li>First item</li>\n
+    <li>Second item</li>\n
+    <li>Third item</li>
+</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/container_email"
+    android:background="@drawable/animation_list">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/et_to"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:alpha="0.7"
+            android:background="@drawable/edittext_theme"
+            android:hint="To:"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColorHint="#ffff" />
+
+        <EditText
+            android:id="@+id/et_subject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="71dp"
+            android:alpha="0.7"
+            android:background="@drawable/edittext_theme"
+            android:hint="Subject"
+            android:singleLine="true"
+            android:textColorHint="#ffff" />
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="135dp"
+            android:alpha="0.7"
+            android:background="@drawable/edittext_theme"
+            android:gravity="top|left"
+            android:hint="Compose Email"
+            android:inputType="textMultiLine"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff" />
+
+        <Button
+            android:id="@+id/bt_send"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:background="@drawable/custombutton2"
+            android:text="Send"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/bt_attachment"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/custombutton2"
+            android:text="attacH FILE"
+            android:textColor="#ffff" />
+
+    </RelativeLayout>
+
+</ScrollView>
