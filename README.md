@@ -11,3 +11,5 @@ With this application, the user is able to :
 6) view a pie chart summary of the activities carried out.
 7) modify activities
 8) send activity report as an email attachment to the specified email.
+
+![GitHub Logo](/images/login.png)
